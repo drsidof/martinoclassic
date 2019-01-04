@@ -1,0 +1,318 @@
+body{
+   
+    font-family: poppins;
+}
+
+ .banner{
+    width: 100%;
+    height:550px; 
+    
+    background: linear-gradient(100deg, rgba(1, 1, 2, 0.46) 50%, rgba(1, 1, 2, 0.3) 50%),
+     url('../img/man-1627744_1920\(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+} 
+
+.navbar-default{
+    background-color:#0c0b0b;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+
+    /* color: #f5eded; */
+
+}
+
+.firstHead{
+    font-size: 50px;
+    font-family: poppins medium;
+    text-align: center;
+    font-weight: bold;
+}
+
+.para1{
+    font-size:19px;
+    color: grey;
+  
+}
+.link{
+    top:5px;
+    color:white;
+    font-size: 18px;
+}
+
+.homepage{
+    width: 104px;
+    height: 41px;
+    background-color: #ffffff;
+    /* border: solid 2px #091cf7; */
+    line-height: 7.29;
+    color:black;
+    font-size: 14px;
+    margin-top: 5px;
+    transition: all 0.4s ease-in;
+    text-align: center;
+}
+.box{
+    
+    padding:10px;
+    margin-top: 50px;
+    text-align: center;
+  
+}
+.box-des{
+    border: 35px;
+    color:white;
+    background-color: black;
+    font-size: 40px;
+    font-weight: bold;
+    width: 70px;
+   
+   
+}
+.des-head{
+    font-size: 32px;
+    color:black;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.feat{
+    text-align: center;
+    font-size:40px;
+    margin-top: 10px;
+    color:white;
+    font-family: poppins medium;
+
+}
+
+.line{
+    width:100px;
+    border:2px solid white;
+    margin-top:-10px;
+    margin-bottom: 40px;
+
+}
+
+.sec2{
+    background-color:rgba(40, 8, 224, 0.425);
+    height: 500px;
+    color:white;
+    margin-top: 50px;
+    
+}
+
+
+/* portfolio */
+.portfolio-section {
+    background: #fff;
+}
+
+.stitle{
+    text-align: center;
+    margin-top:100px;
+    font-family: poppins medium;
+}
+mainSec{
+    margin-top:100px;
+}
+.portfolio-filter{
+    list-style: none;
+    text-align: center;
+   
+}
+
+.portfolio-filter li.active{
+    background: #fff;
+    padding: 3px 12px;
+    border-radius: 20px;
+    border-color: #ddd;
+    
+}
+
+
+.portfolio-filter li{
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 12px;
+    padding: 3px 0;
+    cursor: pointer;
+    border-color: transparent;
+    border: 1px solid transparent;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    
+}
+
+
+.portfolio-filter{
+    margin-top:80px;
+    margin-bottom:67px;
+}
+
+.portfArrange1{
+    margin-bottom:30px;
+    justify-items: center;
+}
+
+.portfArrange2{
+    margin-bottom: 20px;
+    justify-items: center;
+}
+
+
+/*	gallery */
+
+.gallery-title{
+    font-size: 50px;
+    color:black;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 40px;
+    margin-top:20px;
+}
+.filter-button{
+    font-size: 15px;
+    border: 1px solid #7f7f98;
+	padding:5px 10px;
+    text-align: center;
+    color: #3F6184;
+    margin-bottom: 30px;
+    background:transparent;
+    border-radius:35px;
+}
+.filter-button:hover,
+.filter-button:focus,
+.filter-button.active{
+    color: #ffffff;
+    background-color:#3F6184;
+	outline:none;
+}
+.gallery_product{
+    
+	position:relative;
+	padding:0;
+}
+.gallery_product .img-info{
+	position: absolute;
+    background: rgba(0,0,0,0.5);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+	overflow:hidden;
+	color:#fff;
+	top:0;
+	display:none;
+	   -webkit-transition: 2s;
+    transition: 2s;
+    margin-bottom: 36px;
+   
+}
+
+.gallery_product:hover .img-info{
+	display:block;
+   -webkit-transition: 2s;
+    transition: 2s;
+    width: 350px;
+}
+.img-responsive{
+    margin-bottom: 36px;
+   
+}
+.fancybox{
+    margin-bottom: 5px;
+}
+/*	end gallery */
+
+.sec3{
+height: 300px;
+background-image: url("../img/banner.jpg");
+/* background: #3F6184; */
+background-repeat: no-repeat;
+margin-bottom: 30px;
+background-size: auto;
+}
+
+ footer{
+    height:200px;
+   
+    background-color: grey;
+} 
+
+/* carousel testing */
+.main-text
+{
+    position: absolute;
+    top: 274px;
+    right: 70px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+.mian{
+    font-size: 45px;
+    font-weight: 600;
+    font-family: Poppins-SemiBold;
+    line-height: 1.21;
+}
+
+.mian2{
+    font-size: 35px;
+    font-family: poppins-semiBold;
+}
+
+.btn{
+    width:120px;
+    height: 50px;
+    background-color: #000;
+    border:1px solid white;
+    font-size: 20px;
+    border-radius: 35px;
+}
+
+
+.btn-min-block
+{
+    min-width: 170px;
+    line-height: 26px;
+}
+.btn-clear
+{
+    color: #FFF;
+    background-color: transparent;
+    border-color: #FFF;
+    margin-right: 15px;
+}
+.btn-clear:hover
+{
+    color: #000;
+    background-color: #FFF;
+}
+/* @keyframes myanim{
+
+    10%{background:red};
+    20%{background:green};
+    30%{background:blue};
+}
+
+.demo{
+    width: 200px;
+    height:200px;
+    background:#eee;
+    animation-name:myanim;
+    animation-duration: 10s;
+    animation-delay: 2s;
+} */
+
+.testi{
+    text-align: center;
+    font-size: 40px;
+}
+
+.footimg{
+    width:20px;
+
+}
